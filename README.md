@@ -1,50 +1,78 @@
-# Welcome to your Expo app 👋
+# Calculator App 🧮
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern, feature-rich calculator application built with React Native and Expo. This calculator provides a clean, intuitive interface with support for basic arithmetic operations.
 
-## Get started
+![Calculator Demo](./docs/calculator.png)
 
-1. Install dependencies
+## Features
+
+- ✨ Clean and modern UI with dark theme
+- 🔢 Basic arithmetic operations (addition, subtraction, multiplication, division)
+- ➕ Plus/minus toggle for negative numbers
+- 🔄 Clear (C) and delete (del) functionality
+- 📱 Responsive design optimized for mobile devices
+- 🎨 Smooth animations and haptic feedback
+- 🌓 Support for light and dark modes
+
+## Tech Stack
+
+- **React Native** - Cross-platform mobile development
+- **Expo** - Development platform and tooling
+- **TypeScript** - Type-safe code
+- **Expo Router** - File-based navigation
+- **Expo Haptics** - Tactile feedback
+
+## Get Started
+
+1. **Install dependencies**
 
    ```bash
-   npm install
+   pnpm install
    ```
 
-2. Start the app
+2. **Start the development server**
 
    ```bash
-   npx expo start
+   pnpm start
    ```
 
-In the output, you'll find options to open the app in a
+3. **Run the app**
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+   In the output, you'll find options to open the app in:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+   - [Development build](https://docs.expo.dev/develop/development-builds/introduction/)
+   - [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+   - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+   - [Expo Go](https://expo.dev/go) - Quick testing on physical devices
 
-## Get a fresh project
+## Project Structure
 
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+rn-calculator-app/
+├── app/              # Main application screens (file-based routing)
+├── components/       # Reusable UI components
+├── hooks/            # Custom React hooks (calculator logic)
+├── styles/           # Global styles and themes
+├── constants/        # App constants and configuration
+└── docs/             # Documentation and assets
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Development
 
-## Learn more
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction) powered by Expo Router.
 
-To learn more about developing your project with Expo, look at the following resources:
+### Available Scripts
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- `pnpm start` - Start the Expo development server
 
-## Join the community
+## Learn More
 
-Join our community of developers creating universal apps.
+To learn more about the technologies used in this project:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [Expo documentation](https://docs.expo.dev/) - Learn fundamentals and advanced topics
+- [React Native documentation](https://reactnative.dev/) - Core framework documentation
+- [Expo Router](https://docs.expo.dev/router/introduction/) - File-based navigation
+
+## License
+
+This project is open source and available under the MIT License.
